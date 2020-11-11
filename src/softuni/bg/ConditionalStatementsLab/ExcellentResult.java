@@ -10,7 +10,7 @@ public class ExcellentResult {
 
         int grade = Integer.parseInt(sc.nextLine());
 
-        if(grade>=5){
+        if (grade >= 5) {
             System.out.println("Excellent!");
         }
     }

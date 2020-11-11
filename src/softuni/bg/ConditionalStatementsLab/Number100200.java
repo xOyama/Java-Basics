@@ -10,15 +10,12 @@ public class Number100200 {
 
         int x = Integer.parseInt(sc.nextLine());
 
-        if(x < 100){
+        if (x < 100) {
             System.out.println("Less than 100");
-        }
-        else if(x<=200){
+        } else if (x <= 200) {
             System.out.println("Between 100 and 200");
-        }
-        else
+        } else
             System.out.println("Greater than 200");
-
 
     }
 }

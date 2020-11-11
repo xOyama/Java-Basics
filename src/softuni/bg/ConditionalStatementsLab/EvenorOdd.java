@@ -10,10 +10,9 @@ public class EvenorOdd {
 
         int num = Integer.parseInt(sc.next());
 
-        if (num % 2 == 0){
+        if (num % 2 == 0) {
             System.out.println("even");
-        }
-        else{
+        } else {
             System.out.println("odd");
         }
     }
